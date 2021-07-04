@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,124 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
+
+/* ==========================================style header */
+.bg-header{
+  background:#e2edff;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.Taufik{
+ font-weight: bold;
+}
+
+/* ---------------------------------style component Taufik */
+
+.img-taufik {
+  width: 250px;
+  height: 250px;
+  /* padding-top: 10px; */
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: 50%;
+}
+
+.bg-taufik {
+  background-color: #e2edff;
+  /* background-color: red; */
+  padding-top: 80px;
+}
+
+.sicial-media {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.github, .telegram, .linkedin, .instagram {
+  width: 30px;
+  height: 30px;
+  margin: 0 30px 0 30px;
+  cursor: pointer;
+}
+
+.image-icons{
+  transition: .2s;
+}
+.image-icons:hover{
+  transform: scale(1.7);
+}
+
+/* --------------------------------------------------------style component about */
+.bg-about{
+  /* background-color: #e5e6e7; */
+  /* height: 600px; */
+  /* margin-top: -90px; */
+  /* position: absolute;
+  z-index: 2; */
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* =================================================================style skils */
+.bg-skills{
+  margin-top: 20px;
+  height: 500px;
+}
+
+.icon{
+  width: 80px;
+  height: 80px;
+  /* background: burlywood; */
+}
+
+
+
+.tengah{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+/* -----------------------------------style component project */
+.bg-project{
+  /* background: #e5e6e7; */
+  /* margin-top: -140px; */
+  /* margin-top: 360px; */
+  padding-top: 16px;
+  /* height: 600px; */
+  /* position: absolute; */
+  /* z-index: 3; */
+  width: 100%;
+  /* display: flex; */
+}
+
+
+/* ==========================================style contact */
+.bg-contact{
+  margin-top: 10px;
+  /* height: 500px; */
+}
+
+
+/* ===================================================style footer */
+.bg-footer {
+  /* border-top: 1px solid white; */
+  padding-top: 25px;
+  padding-bottom: 0;
+  background: #e2edff;
+}
+
