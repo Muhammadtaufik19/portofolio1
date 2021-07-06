@@ -5,7 +5,7 @@ export default function Footer() {
     <div class="bg-footer">
       <div class="container ">
         <div class="row ">
-          <p class="text-center pb-5" style={{ height: 10 }}>
+          <p class="text-center " style={{ height: 10 }}>
             Creadated <i>by</i> <a>Moh Taufik</a>{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +21,8 @@ export default function Footer() {
               />
             </svg>
           </p>
+          <p>Email : muhammadtaufik433@gmail.com</p>
+          <p>Phone : 085745441176</p>
         </div>
       </div>
     </div>
