@@ -53,7 +53,7 @@ export default class Header extends Component {
                     </Link>
                   </a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a
                     class="nav-link"
                     href="#"
@@ -65,7 +65,7 @@ export default class Header extends Component {
                       Contack
                     </Link>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

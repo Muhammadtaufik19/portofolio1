@@ -14,23 +14,28 @@ export default function Project() {
           <div class="col-md-4 mt-3 mb-3">
             <div class="card">
               <img
-                src={project1}
+                src={project3}
                 alt="project1"
-                style={{ width: "100%", height: 300 }}
+                // style={{ width: "100%", height: 300 }}
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Warung Pojok Suramadu</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Warung pojok suramadu adalah website untuk belanja online,
+                  website ini sebagai project latihan saya
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <a
+                  href="https://muhammadtaufik19.github.io/point-of-sale/"
+                  target="_blank"
+                  rel="nofollow"
+                  class="btn btn-primary"
+                >
+                  Visit Web
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3 mb-3">
+          {/* <div class="col-md-4 mt-3 mb-3">
             <div class="card" style={{ width: "18rem" }}>
               <img src={project2} alt="project2" />
               <div class="card-body">
@@ -89,7 +94,7 @@ export default function Project() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
