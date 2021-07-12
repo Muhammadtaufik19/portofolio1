@@ -11,6 +11,7 @@ import Project from "./part/Project";
 import ContactMe from "./part/ContactMe";
 import Header from "./part/Header/Header";
 import Footer from "./part/Footer";
+import Taufik from "./part/Taufik";
 // import Utama from "./components2/utama";
 
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
@@ -19,8 +20,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <div>
-        <Header />
+        <Taufik />
       </div>
+      <div></div>
       <Switch>
         <Route exact path="/" component={Home}></Route>
         {/* <Route path="/about" component={About}></Route> */}
