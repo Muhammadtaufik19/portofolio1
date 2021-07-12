@@ -73,10 +73,11 @@ body {
   }
 
   .nav-kanan{
-    background-color: #bfd1ec;
+    background-color: #d2e2fc;
+    opacity: 0.5;
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in-out;
     z-index: 1;
     text-align: center !important;
     display: flex;
