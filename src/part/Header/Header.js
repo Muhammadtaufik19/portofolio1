@@ -23,8 +23,8 @@ export default class Header extends Component {
                 Taufik
               </Link>
             </a>
-            <div className=" NavbarItems" id="navbarNav">
-              <ul class="navbar-nav nav-kanan ">
+            <div className="NavbarItems na-a" id="navbarNav">
+              <ul class="navbar-nav nav-kanan nav-b ">
                 {/* <li class="nav-item">
                   <a className="nav-link" href="#" style={{ color: "black" }}>
                     <Link className="Link" to="/">
