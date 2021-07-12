@@ -20,9 +20,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <div>
+        <Header />
+      </div>
+      <div>
         <Taufik />
       </div>
-      <div></div>
       <Switch>
         <Route exact path="/" component={Home}></Route>
         {/* <Route path="/about" component={About}></Route> */}
