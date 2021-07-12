@@ -22,9 +22,7 @@ ReactDOM.render(
       <div>
         <Header />
       </div>
-      <div>
-        <Taufik />
-      </div>
+
       <Switch>
         <Route exact path="/" component={Home}></Route>
         {/* <Route path="/about" component={About}></Route> */}

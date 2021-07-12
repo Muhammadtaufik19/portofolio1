@@ -11,6 +11,10 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 // bisa menerima porp dan state
 export default class Home extends Component {
   render() {
-    return <div>{/* <Taufik /> */}</div>;
+    return (
+      <div>
+        <Taufik />
+      </div>
+    );
   }
 }

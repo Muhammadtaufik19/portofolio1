@@ -18,13 +18,15 @@ export default function Taufik() {
     <div className="bg-taufik">
       <div class="container">
         <div class="text-center ">
-          <img className="img-taufik" src={taufik} alt="taufik" />
-          <h1 className="mt-3 name"> {name}</h1>
-          <p>
-            {" "}
-            <i>Front-End Web Developer</i>{" "}
-          </p>
-          <p>{description}</p>
+          <Fade bottom duration={1000}>
+            <img className="img-taufik" src={taufik} alt="taufik" />
+            <h1 className="mt-3 name"> {name}</h1>
+            <p>
+              {" "}
+              <i>Front-End Web Developer</i>{" "}
+            </p>
+            <p>{description}</p>
+          </Fade>
         </div>
         <div className="sicial-media">
           <Fade bottom duration={1000}>
