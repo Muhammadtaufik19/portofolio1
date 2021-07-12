@@ -47,13 +47,41 @@ body {
 .bg-header{
   background:#e2edff;
 }
-
+.nav-kanan{
+  /* background-color: bisque; */
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 15px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  width: 80vw;
+  margin-right: 2rem;
+}
 .Link {
   text-decoration: none;
   color: black;
 }
 .Taufik{
  font-weight: bold;
+}
+
+/* mobile header */
+@media screen and (max-width: 990px){
+  .NavbarItems{
+    position: relative;
+  }
+
+  .nav-kanan{
+    background-color: #bfd1ec;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* ---------------------------------style component Taufik */
@@ -71,6 +99,7 @@ body {
   background-color: #e2edff;
   /* background-color: red; */
   padding-top: 80px;
+  min-height: 700px;
 }
 
 .sicial-media {

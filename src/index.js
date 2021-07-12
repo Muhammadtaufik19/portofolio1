@@ -32,7 +32,6 @@ ReactDOM.render(
         <Footer />
       </div>
     </Router>
-    {/* <Home /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
