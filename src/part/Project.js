@@ -11,18 +11,15 @@ export default function Project() {
       <div class="container">
         <h5 class="text-center">Project</h5>
         <div class="row mb-5 justify-content-center">
-          <div class="col-md-4 mt-3 mb-3">
-            <div class="card">
-              <img
-                src={project3}
-                alt="project1"
-                // style={{ width: "100%", height: 300 }}
-              />
+          <div class="col-md-3 mt-3 mb-3" style={{ width: 400 }}>
+            <div class="card" style={{ height: "500px" }}>
+              <img src={project3} alt="project1" style={{ height: "280px" }} />
               <div class="card-body">
                 <h5 class="card-title">Warung Pojok Suramadu</h5>
                 <p class="card-text">
                   Warung pojok suramadu adalah website untuk belanja online,
-                  website ini sebagai project latihan saya
+                  dimana terinspirasi dari permasalah warung sendiri, website
+                  ini sebagai project latihan saya
                 </p>
                 <a
                   href="https://muhammadtaufik19.github.io/point-of-sale/"
@@ -35,66 +32,43 @@ export default function Project() {
               </div>
             </div>
           </div>
-          {/* <div class="col-md-4 mt-3 mb-3">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={project2} alt="project2" />
+          <div class="col-md-3 mt-3 mb-3" style={{ width: 400 }}>
+            <div class="card" style={{ height: "500px" }}>
+              <img src={project2} alt="project2" style={{ height: "280px" }} />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Alquran Online</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Web ini akan sangat membantu kita agar bisa membaca alquran di
+                  manapun dan kapanpun, projek ini adalah latihan saya membuat
+                  web dengan coding.
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <a
+                  href="https://muhammadtaufik19.github.io/alquran/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="nofollow"
+                  class="btn btn-primary"
+                >
+                  Visit Web
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3 mb-3">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={project3} alt="project3" />
+          <div class="col-md-3 mt-3 mb-3" style={{ width: 400 }}>
+            <div class="card" style={{ height: "500px" }}>
+              <img src={project4} alt="project2" style={{ height: "280px" }} />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Bajuku</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Project ini akan menyusul ini masih rencana awal dalam
+                  pembutan web nya, semoga kedepannya dapat terhujudkan amin
                 </p>
                 <a href="#" class="btn btn-primary">
-                  Go somewhere
+                  Visit Web
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={project4} alt="project3" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={project4} alt="project3" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

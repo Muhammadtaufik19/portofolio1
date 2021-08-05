@@ -23,7 +23,7 @@ export default function Taufik() {
             <h1 className="mt-3 name"> {name}</h1>
             <p>
               {" "}
-              <i>Front-End Web Developer</i>{" "}
+              <i>UI/UX Front-End Web Developer</i>{" "}
             </p>
             <p>{description}</p>
           </Fade>
